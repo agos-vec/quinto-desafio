@@ -13,17 +13,24 @@ body {
     width: 100vw;
 }
 
-/* .logotipo {
-    height: 20vh;
-    width: 20vw; */
-
 
 #main {
     height: 80vh;
     width: 100vw;
 }
 
-#section-imagenes {
+.slide {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.slide img {
+    height: 35vh;
+}
+
+
+
+#section-carrusel {
     height: 40vh;
     width: 100vw;
 }
