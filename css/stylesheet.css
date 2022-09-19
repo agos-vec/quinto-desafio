@@ -48,4 +48,22 @@ body {
 #footer {
     height: 15vh;
     width: 100vw;
+       
+}
+
+#logo-footer {
+    margin-right: 5vh;
+    
+}
+
+#footer div ul li {
+    list-style-type: none;
+}
+
+.contFooter {
+    margin: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
 }
