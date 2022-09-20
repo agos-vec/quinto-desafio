@@ -11,12 +11,20 @@ body {
 #header {
     height: 15vh;
     width: 100vw;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 24, 1) 0%, rgba(5, 162, 128, 1) 0%, rgba(2, 212, 143, 1) 44%, rgba(0, 212, 255, 1) 100%);
+}
+
+.logos {
+    height: 80px;
+    width: 80px;
 }
 
 
 #main {
     height: 80vh;
     width: 100vw;
+    background-color: rgb(214,239,250);
 }
 
 .slide {
@@ -37,8 +45,16 @@ body {
 
 #cont-txt-index {
     height: 40vh;
-    max-width: 50vw;
-    margin-top: 10vh;
+    max-width: 85vw;
+    
+
+}
+
+.estiloParrafos {
+    color: black;    
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 
 }
 
@@ -46,24 +62,81 @@ body {
 
 
 #footer {
-    height: 15vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 24, 1) 0%, rgba(5, 162, 128, 1) 0%, rgba(2, 212, 143, 1) 44%, rgba(0, 212, 255, 1) 100%);
+    height: 20vh;
     width: 100vw;
-       
+
 }
 
 #logo-footer {
     margin-right: 5vh;
-    
+
+
 }
 
 #footer div ul li {
     list-style-type: none;
 }
 
-.contFooter {
-    margin: 5vh;
+.contactoFooter {
+    margin-top: 5vh;    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 20px;
+}
+
+/* media queries */
+
+
+/* mobile */
+
+@media only screen and (max-width: 480px) {
+
+    .estiloParrafos {
+        font-size: 13px !important;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    
+    }
+
+    .logos {
+        height: 50px;
+        width: 50px;
+    }
+
+    .contactoFooter {
+        margin-left: 0px;        
+        font-size: 13px;
+        
+    }
+    
+
+}
+
+/* tableta */
+
+@media only screen and (max-width: 768px) {
+    .estiloParrafos {
+        font-size: 17px !important;
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+    
+    }
+}
+
+/* desktop */
+
+@media only screen and (max-width: 1200px) {}
+
+
+@media only screen and (max-width: 1440px) {
+
+    .estiloParrafos {
+        color: black;    
+        font-size: 20px;
+        /* margin-top: 1vh;
+        margin-bottom: 1vh; */
+    
+    }
 }
