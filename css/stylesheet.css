@@ -86,6 +86,38 @@ body {
     font-size: 20px;
 }
 
+/* Inicio estilo servicios */
+
+#img-servicios {
+    max-height: 50vh;
+    max-width: 50vw;
+    margin: 5vh;
+
+}
+
+.contBotoneraServicios {
+    max-width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contBotoneraServicios ul li {
+    list-style-type: none;
+    background-color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 7px;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #383438;
+}
+
 /* media queries */
 
 
@@ -110,6 +142,31 @@ body {
         font-size: 13px;
         
     }
+
+    #img-servicios {
+        max-height: 50vh;
+        max-width: 50vw;
+        margin: 1vh;
+    
+    }
+    
+    .contBotoneraServicios {
+        max-width: 30vw;
+        
+    }
+    
+    
+    .contBotoneraServicios ul li {
+        
+        font-size: 10px;
+        text-align: center;
+        margin: 1px;
+        padding: 3px 15px 3px 15px;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 1px solid #383438;
+    }
     
 
 }
@@ -123,6 +180,32 @@ body {
         margin-bottom: 0vh;
     
     }
+
+    #img-servicios {
+        max-height: 50vh;
+        max-width: 50vw;
+        margin: 1vh;
+    
+    }
+    
+    .contBotoneraServicios {
+        max-width: 50vw;
+        
+    }
+    
+    
+    .contBotoneraServicios ul li {
+        
+        font-size: 16px;
+        text-align: center;
+        margin: 3px;
+        padding: 7px 25px 7px 25px;
+        border-radius: 10px 10px 10px 10px;
+        -moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        border: 1px solid #383438;
+    }
+
 }
 
 /* desktop */
