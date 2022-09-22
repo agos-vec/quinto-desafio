@@ -14,62 +14,62 @@
 </head>
 
 <body>
-    <header class="container-fluid">
-        <div class="row" id="header">
-            <div class="col-12">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="../assets/img/logoA.png" alt="logo" class="logos animate__animated animate__flip">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Quiénes somos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-                                </li> 
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Sectores
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Educación</a></li>
-                                        <li><a class="dropdown-item" href="#">TI</a></li>
-                                        <li><a class="dropdown-item" href="#">Audiovisual</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="">Contacto</a>
-                                </li>
-                            </ul>
-                        </div>
+    <!-- inicio header -->
+    <header id="header">
+        <div class="container-flex">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="../assets/img/logogrande.png" alt="logo"
+                            class="logos my-1 mx-1 animate__animated animate__flip">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Quiénes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Sectores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                            </li>
+                        </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
 
         </div>
 
     </header>
 
-    <main class="container-fluid" id="main">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-center align-items-center">
-                <img src="../assets/img/servicios2.jpg" alt="imagen_laptops" id="img-servicios">
-            </div>
+    <!-- fin header -->
 
-            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex flex-column justify-content-center align-items-center contBotoneraServicios">
-                <ul>
+    <!-- inicio main servicios -->
+
+    <main class="container-fluid" id="main">
+
+        <div id="imagen-servicios" class="row d-flex">
+            <img src="../assets/img/imagenserviciosA.jpg" alt="mujer-trabajando"
+                class="py-1 animate__animated animate__fadeIn">
+
+        </div>
+
+        <!-- <div class="row"> -->
+        <div class="row d-flex flex-column justify-content-center align-items-center contBotoneraServicios">
+            <div class="col-6">
+                <ul class="list-unstyled">
                     <li class="animate__animated animate__backInRight animate__delay-1s"><a href="#"></a>Traducción</li>
                     <li class="animate__animated animate__backInLeft animate__delay-1s"><a href="#"></a>Posedición</li>
                     <li class="animate__animated animate__backInRight animate__delay-2s"><a href="#"></a>Edición</li>
@@ -81,18 +81,21 @@
                     </li>
                 </ul>
             </div>
+        </div>
+        <!-- </div> -->
     </main>
 
 
+    <!-- inicio footer -->
 
     <footer class="container-fluid">
         <div class="row" id="footer">
             <div class="col-6 d-flex align-items-center justify-content-end">
-                <img src="../assets/img/logoA.png" id="logo-footer" class="logos animate__animated animate__flip"
-                    alt="logo">
+                <img src="../assets/img/logogrande.png" id="logo-footer"
+                    class="logos my-5 mx-5 animate__animated animate__flip" alt="logo">
             </div>
-            <div class="col-6">
-                <ul class="contactoFooter">
+            <div class="col-6 d-flex flex-column justify-content-center text-white mx-auto py-sm-2 py-md-3 py-lg-5 py-xl-5">
+                <ul class="list-unstyled">
                     <li>Avenida Siempreviva 742</li>
                     <li>+349 3517899239</li>
                     <li>info@avectranslations.com</li>
@@ -102,6 +105,8 @@
             </div>
         </div>
     </footer>
+
+    <!-- fin footer -->
 
     <!-- JavaScript Bundle with Popper -->
 
