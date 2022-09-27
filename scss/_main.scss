@@ -1,0 +1,57 @@
+#main {
+    width: 100vw;
+    background-color: rgb(214, 239, 250);
+
+    #banner1 {
+        position: relative;
+        background-image: url(../assets/img/Recurso\ 4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+        height: 30vh;
+        margin-left: 0;
+
+        span {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+
+            .texto {
+                z-index: 2;
+                font-size: 1.5rem;
+
+
+            }
+
+        }
+
+    }
+
+    #banner2 {
+        position: relative;
+        background-image: url(../assets/img/Recurso\ 3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+        height: 30vh;
+        margin-left: 0;
+
+        span {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: block;
+
+            .texto {
+                z-index: 2;
+                font-size: 1.5rem;
+
+            }
+        }
+
+    }
+
+}
